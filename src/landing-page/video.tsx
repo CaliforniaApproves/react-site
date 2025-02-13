@@ -39,7 +39,7 @@ const LandingVideo = () => {
             </div>
             <br/>
             <p className='text-large-bold text-center m-auto max-w-[768px]'>
-                Approval voting is a single-winner voting method that allows voters to choose as many candidates as they wish. The candidate with the most votes wins.
+                Approval Voting is a single-winner voting method that allows voters to choose as many candidates as they wish. The candidate with the most votes wins.
             </p>
             <br/>
             <Link

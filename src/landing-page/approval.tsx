@@ -28,7 +28,7 @@ const AboutApproval = () => {
                     Simple, Effective and Affordable Reform
                 </h1>
                 <p className='text-base text-white'>
-                    No confusing algorithms. No expensive new voting machines. Approval voting is an uncomplicated solution that delivers meaningful improvements in the quality of representation and policies.
+                    No confusing algorithms. No expensive new voting machines. Approval Voting is an uncomplicated solution that delivers meaningful improvements in the quality of representation and policies.
                 </p>
                 <br/>
                 <div className='flex flex-row items-center'>

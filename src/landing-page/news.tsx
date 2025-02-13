@@ -20,14 +20,14 @@ import update from 'immutability-helper';
 const placeholderNews: NewsBlurbProps[] = [
     {
         title: "California Approves Brings Approval Voting To Anaheim"
-        , body: "Voters passed an approval voting ballot measure in February for city council races with 72% in favor."
+        , body: "Voters passed an Approval Voting ballot measure in February for city council races with 72% in favor."
         , tag: NewsTag.News
         , link: '#'
         , color: 'purple'
     }
     , {
         title: 'Fargo 2018: Approval Voting in Action'
-        , body: 'Fargo, North Dakota becomes the first city in the U.S. to use approval voting. How did they do it?'
+        , body: 'Fargo, North Dakota becomes the first city in the U.S. to use Approval Voting. How did they do it?'
         , tag: NewsTag.CaseStudy
         , link: '#'
         , color: 'orange'

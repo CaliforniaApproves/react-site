@@ -27,7 +27,7 @@ const BallotSection = () => {
                     {"Our elections don't have to be like this! The solution is"} <strong className='text-tan'>Approval Voting</strong>
                 </h2>
                 <h5 className='pt-4'>
-                    With approval voting, you can vote for all the candidates you want. The candidate with the most votes wins. It’s as simple as that!
+                    With Approval Voting, you can vote for all the candidates you want. The candidate with the most votes wins. It’s as simple as that!
                 </h5>
             </div>
             <div className='lg:w-1/2'>

@@ -26,7 +26,7 @@ const ClosingSection = () => {
                 <img className='rounded-2xl' src={voteMatters} alt="your vote matters"/>
             </div>
             <div  className='lg:w-1/2 lg:ml-4 my-auto'>
-                <h2>Approval voting is a simple tweak that offers enormous benefits:</h2>
+                <h2>Approval Voting is a simple tweak that offers enormous benefits:</h2>
                 <ul className="list-disc pl-10 text-base pt-4">
                     <li>If your favorite isn’t the front runner, you can’t vote for them without risking helping your least favorite with. This is called “the spoiler effect”.</li>
                     <li>Winning candidates often don’t represent a broad base of voters. It is common for candidates to receive less than 50% of the vote.</li>

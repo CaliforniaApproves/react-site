@@ -40,7 +40,7 @@ const Banner = () => {
                 <div className='static max-w-[500px] mt-9'>
                     <Arrow className='absolute'/>
                     <p className='text-large-bold flex flex-row indent-24 font-bold lg:font-normal'>
-                        Approval voting gives voters the power to support multiple candidates equally so that stronger representatives with broad support are always elected.
+                        Approval Voting gives voters the power to support multiple candidates equally so that stronger representatives with broad support are always elected.
                     </p>
                 </div>
             </div>

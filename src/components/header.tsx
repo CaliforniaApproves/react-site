@@ -34,7 +34,7 @@ type MenuDropDown = {
 const education: MenuDropDown[] = [
     {
         name: 'What is Approval Voting'
-        , description: 'An overview of approval voting'
+        , description: 'An overview of Approval Voting'
         , href: '/approval-101'
         , icon: QuestionMarkCircleIcon
     }
@@ -58,7 +58,8 @@ const Header = () => {
                         <Logo className='w-56' />
                     </a>
                     <Link to='/about' color="green" className='mx-4 hidden lg:block'><h5>ABOUT</h5></Link>
-                    <Link to='/approval-101' color="green" className='mx-4 hidden lg:block'><h5>APPROVAL VOTING</h5></Link>
+                    <Link to='/faq' color="green" className='mx-4 hidden lg:block'><h5>FAQ</h5></Link>
+                    <Link to='/approval-101' color="green" className='mx-4 hidden lg:block'><h5>Approval Voting</h5></Link>
                     {/* <Link to='/articles' color="green" className='mx-4 hidden lg:block'><h5>ARTICLES</h5></Link> */}
                     {/* <Popover.Group as="nav" className="hidden space-x-10 lg:flex mx-4">
                         <Popover className="relative">
@@ -70,7 +71,7 @@ const Header = () => {
                                             'group inline-flex items-center rounded-md bg-white font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-purple focus:ring-offset-2'
                                         )}
                                     >
-                                        <h5 className='text-green hover:text-green-high whitespace-nowrap'>APPROVAL VOTING</h5>
+                                        <h5 className='text-green hover:text-green-high whitespace-nowrap'>Approval Voting</h5>
                                         <ChevronDownIcon
                                             className={classNames(
                                                 open ? 'text-gray-600' : 'text-gray-400',
@@ -176,6 +177,7 @@ const Header = () => {
                                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 text-white">
                                             <div className="relative w-full grid gap-6 bg-purple px-5 py-6 sm:gap-8 sm:p-8">
                                                 <Link to='/about' color="white" className='mx-4'><h2>About</h2></Link>
+                                                <Link to='/faq' color="white" className='mx-4 text-base'><h2>FAQ</h2></Link>
                                                 {/* <Link to='/articles' color="white" className='mx-4'><h2>Articles</h2></Link> */}
                                                 <Link to='/approval-101' color="white" className='mx-4 text-base'><h2>Approval Voting</h2></Link>
                                                 <Link to='https://californiaapproves.creator-spring.com/' target="_blank" color="white" className='mx-4 text-base'><h2>Merch</h2></Link>

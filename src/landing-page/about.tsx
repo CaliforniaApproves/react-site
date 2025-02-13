@@ -73,7 +73,7 @@ const About = () => {
                         Campaigning
                     </h3>
                     <p className="text-base pt-3">
-                        Let us help bring approval voting to your city. As an FPPC-approved committee, we are the only organization in California that can directly fund your campaign.
+                        Let us help bring Approval Voting to your city. As an FPPC-approved committee, we are the only organization in California that can directly fund your campaign.
                     </p>
                     <br/>
                     <button

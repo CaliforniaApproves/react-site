@@ -25,10 +25,11 @@ type CaaLinkProps = {
     to: string;
     color: LinkColor;
     target?: string;
+    rel?: string;
 };
 
 // create a component
-const CaaLink = ({to, children, color, target, className=''}: PropsWithChildren<CaaLinkProps>) => {
+const CaaLink = ({to, children, color, target, rel, className=''}: PropsWithChildren<CaaLinkProps>) => {
     const classNames = classnames(
         'caa-link'
         , {
@@ -45,6 +46,7 @@ const CaaLink = ({to, children, color, target, className=''}: PropsWithChildren<
             to={to}
             className={classNames}
             target={target}
+            rel={rel}
         >
             {children}
         </Link>

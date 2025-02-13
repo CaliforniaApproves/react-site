@@ -30,7 +30,7 @@ const Plan = () => {
                 <p className='text-large-bold'>1. Run donation campaign to fund ballot initiative.</p>
                 <p className='text-large-bold'>2. Identify good target for ballot initiative.</p>
                 <p className='text-large-bold'>3. Use the donations to fund signature campaign.</p>
-                <p className='text-large-bold'>4. Put approval voting on the ballot.</p>
+                <p className='text-large-bold'>4. Put Approval Voting on the ballot.</p>
             </div>
         </div>
     );

@@ -35,7 +35,7 @@ const FormSection = () => {
                         <h2 className='mb-4'>We believe in a better democracy</h2>
                         <p className='text-base'>California Approves strives to make California elections more expressive and fair. We believe that voting systems shape voter and candidate behavior. Better voting systems let voters be more honest and incentivize candidates to better represent the electorate.</p>
                         <br/>
-                        <p className='text-base'>We are a group of grassroots volunteers dedicating our free time to bring better democracy to California. Donations to our organization help us educate voters on approval voting, fund ballot measures to get approval voting on the ballot, and generally bring awareness to voting reform.</p>
+                        <p className='text-base'>We are a group of grassroots volunteers dedicating our free time to bring better democracy to California. Donations to our organization help us educate voters on Approval Voting, fund ballot measures to get Approval Voting on the ballot, and generally bring awareness to voting reform.</p>
                         <br/>
                         <p className='text-base'>The state of California requires we gather employment information on all donations.</p>
                     </div>
